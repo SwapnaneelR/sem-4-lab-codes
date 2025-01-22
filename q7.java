@@ -64,9 +64,12 @@ class Library {
         Library lib = new Library();
 
         for (int i = 0; i < 5; i++) {
+      for (int i = 0; i < 5; i++) {
+                System.out.println("Enter the no of pages ");
             int x = ob.nextInt(); // Read the number of pages
+                System.out.println("Enter publisher name");
             ob.nextLine(); // Consume the newline character left by nextInt()
-            String y = ob.nextLine(); // Read the publisher name
+            String y = ob.nextLine(); // Read the publisher name                System.out.println("Enter the price");
             double z = ob.nextDouble(); // Read the price
 
             if (i < 3) {
